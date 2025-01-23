@@ -590,8 +590,8 @@ export class VsCodeLmHandler implements ApiHandler, SingleCompletionHandler {
 						: openAiModelInfoSaneDefaults.contextWindow,
 				supportsImages: false, // VSCode Language Model API currently doesn't support image inputs
 				supportsPromptCache: true,
-				inputPrice: 0,
-				outputPrice: 0,
+				inputPrice: 0.27,
+				outputPrice: 1.10,
 				description: `VSCode Language Model: ${modelId}`,
 			}
 
