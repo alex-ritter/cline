@@ -234,8 +234,8 @@ export const openAiModelInfoSaneDefaults: ModelInfo = {
 	contextWindow: 128_000,
 	supportsImages: true,
 	supportsPromptCache: false,
-	inputPrice: 0,
-	outputPrice: 0,
+	inputPrice: 0.27,
+	outputPrice: 1.10,
 }
 
 // Gemini
